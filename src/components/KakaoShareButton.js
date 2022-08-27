@@ -23,7 +23,7 @@ const KakaoShareButton = ({ data }) => {
       objectType: "feed",
       content: {
         title: "💻 노트북 추천 결과",
-        description: `당신이 쓰기에는 ${data.name}가 적당합니다.`,
+        description: `당신에게 ${data.name}을(를) 추천합니다.`,
         imageUrl: url + data.image,
         link: {
           mobileWebUrl: resultUrl,
