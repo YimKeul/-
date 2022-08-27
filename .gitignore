@@ -22,6 +22,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# kakao api
-.env
-/src/components/KakaoShareButton.js
