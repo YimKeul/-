@@ -4,8 +4,7 @@ import Button from "react-bootstrap/Button";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { useScreenshot, createFileName } from "use-react-screenshot";
 import { ResultData } from "../assets/data/resultdata";
-
-// import KakaoShareButton from "../components/KakaoShareButton";
+import KakaoShareButton from "../components/KakaoShareButton";
 
 const CustomBtnStyle = {
   width: 220,
@@ -159,8 +158,7 @@ const Result = () => {
           >
             테스트 다시하기
           </Button>
-
-          {/* <KakaoShareButton data={resultData} /> */}
+          <KakaoShareButton data={resultData} />
         </S.BtnGroup>
       </S.Wrapper>
     </S.Container>
